@@ -1,0 +1,57 @@
+.ctn:hover{
+    padding: 8px 15px;
+    background: red;
+    border-radius: 30px;
+    color: whitesmoke;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;  
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+ 
+}
+
+.active{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    font-weight: 900;
+}
+
+
+.menu-btn:hover{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+   
+
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+}

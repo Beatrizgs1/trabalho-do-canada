@@ -1,0 +1,33 @@
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/pexels-social-soup-social-media-2448946.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 45px;
+}
+
+
+.header-content{
+    margin-bottom:150px ;
+    content: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   
+}
+
+
+
+
